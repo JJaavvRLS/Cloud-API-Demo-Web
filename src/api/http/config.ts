@@ -1,13 +1,14 @@
 export const CURRENT_CONFIG = {
 
   // license
-  appId: 'Please enter the app id.', // You need to go to the development website to apply.
-  appKey: 'Please enter the app key.', // You need to go to the development website to apply.
-  appLicense: 'Please enter the app license.', // You need to go to the development website to apply.
+  // license
+  appId: '129221', // You need to go to the development website to apply.
+  appKey: 'acbe44b817bb1c633c809f544df4909', // You need to go to the development website to apply.
+  appLicense: 'NDxUyLKnm8VJ/yk15/Snl2LYjNQnFt/x9z9nHpSpoiAfLlUMyuqzYQ03W5axEiSWz0Fg4AxmARsh/GfnEk+V2Xvo0RRyqbEVx+Hsdi/VZ07L5D66E5+mrSjFaCKZqShVt8Leoi3e9avMRzUcfHUPDkw2cYnnrXj+FMVnz/378kQ=', // You need to go to the development website to apply. apply.
 
   // http
-  baseURL: 'Please enter the backend access address prefix.', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
-  websocketURL: 'Please enter the WebSocket access address.', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
+  baseURL: 'http://36.138.249.175:6789/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
+  websocketURL: 'http://36.138.249.175:6789/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'9/api/v
 
   // livestreaming
   // RTMP  Note: This IP is the address of the streaming server. If you want to see livestream on web page, you need to convert the RTMP stream to WebRTC stream.
@@ -25,12 +26,12 @@ export const CURRENT_CONFIG = {
   rtspPassword: 'Please enter the password.',
   rtspPort: '8554',
   // Agora
-  agoraAPPID: 'Please enter the agora app id.',
-  agoraToken: 'Please enter the agora temporary token.',
-  agoraChannel: 'Please enter the agora channel.',
+  agoraAPPID: '96723a46c02b4bb1ba41bb3a161c53ee',
+  agoraToken: '007eJxTYJjEMOHHBkOJn++6HOPuTNKXnBWaH+siMCPQr37uZJVb8psUGCzNzI2ME03Mkg2MkkySkgyTEk0Mk5KMEw3NDJNNjVNTmcxXpzYEMjIk3J7DwAiFID4zQ0pWJgMDANNAHbM=',
+  agoraChannel: 'dji',
 
   // map
   // You can apply on the AMap website.
-  amapKey: 'Please enter the amap key.',
+  amapKey: '8ecc408fa61be8f29098c58c611b6b30',
 
 }
