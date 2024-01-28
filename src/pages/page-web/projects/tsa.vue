@@ -3,7 +3,7 @@
     <div>
       <a-row>
         <a-col :span="1"></a-col>
-        <a-col :span="11">My Username</a-col>
+        <a-col :span="11">用户</a-col>
         <a-col :span="11" align="right" style="font-weight: 700">{{ username }}</a-col>
         <a-col :span="1"></a-col>
       </a-row>
@@ -190,14 +190,14 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, reactive, ref, watch, WritableComputedRef } from 'vue'
-import { EDeviceTypeName, ELocalStorageKey } from '/@/types'
+import { DoubleRightOutlined, EyeInvisibleOutlined, EyeOutlined, RobotOutlined, RocketOutlined } from '@ant-design/icons-vue'
+import { computed, onMounted, reactive, ref, watch } from 'vue'
+import { getDeviceTopo, getUnreadDeviceHms, updateDeviceHms } from '/@/api/manage'
 import noData from '/@/assets/icons/no-data.png'
 import rc from '/@/assets/icons/rc.png'
-import { OnlineDevice, EModeCode, OSDVisible, EDockModeCode, DeviceOsd } from '/@/types/device'
 import { useMyStore } from '/@/store'
-import { getDeviceTopo, getUnreadDeviceHms, updateDeviceHms } from '/@/api/manage'
-import { RocketOutlined, EyeInvisibleOutlined, EyeOutlined, RobotOutlined, DoubleRightOutlined } from '@ant-design/icons-vue'
+import { EDeviceTypeName, ELocalStorageKey } from '/@/types'
+import { EDockModeCode, EModeCode, OnlineDevice } from '/@/types/device'
 import { EHmsLevel } from '/@/types/enums'
 
 const store = useMyStore()

@@ -40,9 +40,9 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => defineConfig(
     // [svgBuilder('./src/assets/icons/')] // All svg under src/icons/svg/ have been imported here, no need to import separately
   ],
   server: {
-    open: true,
+    open: false,
     host: '0.0.0.0',
-    port: 889
+    port: 9090
   },
   envDir: './env',
   resolve: {
